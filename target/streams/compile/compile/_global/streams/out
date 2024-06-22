@@ -1,0 +1,39 @@
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask2part1/src/main/scala/AkkaMessageProducer.scala:47:36: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, String)[0m
+[0m[[0m[31merror[0m] [0m[0m            "cpu_usage_percentage" -> 100,[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask2part1/src/main/scala/AkkaMessageProducer.scala:48:31: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, String)[0m
+[0m[[0m[31merror[0m] [0m[0m            "memory_usage_gb" -> 64,[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask2part1/src/main/scala/AkkaMessageProducer.scala:49:33: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, String)[0m
+[0m[[0m[31merror[0m] [0m[0m            "disk_io_rate_mbps" -> 500,[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask2part1/src/main/scala/AkkaMessageProducer.scala:50:39: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, String)[0m
+[0m[[0m[31merror[0m] [0m[0m            "network_throughput_mbps" -> 1000,[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask2part1/src/main/scala/AkkaMessageProducer.scala:51:32: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, String)[0m
+[0m[[0m[31merror[0m] [0m[0m            "response_time_ms" -> 2000,[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask2part1/src/main/scala/AkkaMessageProducer.scala:52:37: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, String)[0m
+[0m[[0m[31merror[0m] [0m[0m            "error_rate_percentage" -> 100[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask2part1/src/main/scala/AkkaMessageProducer.scala:55:65: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m        val metricValue = Random.nextInt(metricValues.getOrElse(metricName, 0))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/private/var/folders/1d/_0pnt2994vg5xvvvj4fk41qr0000gp/T/sparkmandatorytask2part1/src/main/scala/AkkaMessageProducer.scala:70:22: not found: value StatusCodes[0m
+[0m[[0m[31merror[0m] [0m[0m            complete(StatusCodes.OK, s"Message sent to Kafka: $jsonString")[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
